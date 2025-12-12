@@ -1,0 +1,169 @@
+% ATS-Friendly Resume
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Md. Shahariar Hossen} \\ \vspace{1pt}
+    Savar, Dhaka, Bangladesh \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +880-1727275916 ~ \href{mailto:tanimshorkar77@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tanimshorkar77@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/tctanim}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/tctanim}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Summary}
+\small{Software Engineering student with hands-on experience in web development, C/C++ programming, and data management. Proven track record in freelance outsourcing since 2020, delivering data entry and Microsoft Office projects. Passionate about leveraging technology to solve complex problems and create meaningful impact. Strong foundation in algorithms, data structures, and software design principles with 50+ WPM typing proficiency.}
+\vspace{-6pt}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Daffodil International University}{September 2025 -- Present}
+      {Bachelor of Applied Science in Computer Software Engineering}{Dhaka, Bangladesh}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Software Design}
+        \resumeItem{Current GPA: Maintaining strong academic performance while building practical programming skills}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Notre Dame College Mymensingh}{February 2023 -- June 2024}
+      {Higher Secondary Certificate (HSC) in Science}{Mymensingh, Bangladesh}
+      \resumeItemListStart
+        \resumeItem{Focused on Mathematics, Physics, and Chemistry with strong analytical problem-solving foundation}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: C, C++ (Learning), HTML5, CSS3} \\
+     \textbf{Web Technologies}{: Responsive Web Design, Frontend Development, Website Design} \\
+     \textbf{Tools \& Platforms}{: Microsoft Office Suite (Word, Excel, PowerPoint), Git, VS Code} \\
+     \textbf{Soft Skills}{: Fast Typing (50+ WPM), Data Entry, Problem Solving, Self-Learning, Time Management} \\
+     \textbf{Languages}{: Bengali (Native), English (Professional Working Proficiency)} \\
+    }}
+ \end{itemize}
+\vspace{-14pt}
+
+\section{Experience}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+      {Freelance Outsourcing Professional}{2020 -- Present}
+      {Data Entry \& Microsoft Office Specialist}{Remote}
+      \resumeItemListStart
+        \resumeItem{Delivered 20+ successful data entry and document processing projects for international clients}
+        \resumeItem{Maintained 98\% client satisfaction rate through accurate data handling and timely project delivery}
+        \resumeItem{Specialized in Excel data manipulation, Word document formatting, and PowerPoint presentations}
+        \resumeItem{Developed strong attention to detail and quality assurance practices in high-volume data environments}
+        \resumeItem{Managed multiple concurrent projects while maintaining academic excellence}
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Personal Portfolio Website} $|$ \emph{HTML5, CSS3, Responsive Design}}{2024}
+          \resumeItemListStart
+            \resumeItem{Designed and developed a fully responsive portfolio website showcasing projects and skills}
+            \resumeItem{Implemented modern CSS techniques including Flexbox and Grid for optimal cross-device compatibility}
+            \resumeItem{Optimized page load time to under 2 seconds through efficient code structure and asset management}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{C Programming Practice Projects} $|$ \emph{C, Data Structures, Algorithms}}{2024}
+          \resumeItemListStart
+            \resumeItem{Built console-based applications including calculator, student management system, and sorting algorithms}
+            \resumeItem{Implemented fundamental data structures: arrays, linked lists, stacks, and queues in C}
+            \resumeItem{Solved 50+ algorithmic problems focusing on time and space complexity optimization}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+\section{Achievements \& Activities}
+    \resumeItemListStart
+        \resumeItem{\textbf{Early Tech Entrepreneur}: Started freelancing at age 14 (2020), gaining real-world professional experience}
+        \resumeItem{\textbf{Self-Taught Programmer}: Independently learned C, HTML, CSS, and web development through online resources}
+        \resumeItem{\textbf{Typing Proficiency}: Achieved 50+ WPM typing speed with high accuracy for efficient coding and documentation}
+        \resumeItem{\textbf{Continuous Learner}: Currently advancing C++ skills and exploring data structures and algorithms}
+        \resumeItem{\textbf{Problem Solver}: Passionate about using technology to create meaningful solutions and drive innovation}
+    \resumeItemListEnd
+\vspace{-12pt}
+
+\section{Interests}
+\small{Open Source Contribution, Competitive Programming, Web Development, Artificial Intelligence, Cloud Computing, Technology Innovation, Problem Solving, Continuous Learning}
+
+\end{document}
