@@ -1,333 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Shahariar Hossen Tanim - Resume</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# Md. Shahariar Hossen Tanim 👨‍💻
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f5;
-            padding: 20px;
-        }
+Software Engineering student with hands-on experience in **web development**, **C/C++ programming**, and **freelance outsourcing** since 2020. Passionate about problem-solving, continuous learning, and building impactful technology solutions.
 
-        .container {
-            max-width: 850px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 40px 50px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
+---
 
-        header {
-            text-align: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid #2c3e50;
-        }
+## 📌 About Me
+- 🎓 **Bachelor of Applied Science in Computer Software Engineering**  
+  *Daffodil International University (2025 – Present)*
+- 💼 Freelance Outsourcing Professional (Data Entry & MS Office) since **2020**
+- ⌨️ Typing Speed: **50+ WPM**
+- 🌱 Currently learning **C++**, **Data Structures & Algorithms**
+- 🎯 Interested in **Cyber Security, Web Development, AI & Cloud Computing**
 
-        h1 {
-            font-size: 2.5em;
-            color: #2c3e50;
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+---
 
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 10px;
-            font-size: 0.95em;
-        }
+## 🛠️ Technical Skills
 
-        .contact-info a {
-            color: #2c3e50;
-            text-decoration: none;
-        }
+### Programming Languages
+- C  
+- C++ (Learning)  
+- HTML5  
+- CSS3  
 
-        .contact-info a:hover {
-            color: #3498db;
-        }
+### Web Technologies
+- Responsive Web Design  
+- Frontend Development  
+- Website Design  
 
-        .contact-info i {
-            margin-right: 5px;
-        }
+### Tools & Platforms
+- Microsoft Office (Word, Excel, PowerPoint)  
+- Git & GitHub  
+- Visual Studio Code  
 
-        section {
-            margin-bottom: 25px;
-        }
+### Soft Skills
+- Fast Typing (50+ WPM)  
+- Data Entry & Data Management  
+- Problem Solving  
+- Self-Learning  
+- Time Management  
 
-        h2 {
-            font-size: 1.4em;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 12px;
-            padding-bottom: 5px;
-            border-bottom: 2px solid #2c3e50;
-        }
+### Languages
+- Bengali (Native)  
+- English (Professional Working Proficiency)  
 
-        .summary {
-            text-align: justify;
-            font-size: 0.95em;
-            line-height: 1.7;
-        }
+---
 
-        .entry {
-            margin-bottom: 20px;
-        }
+## 💼 Experience
 
-        .entry-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 5px;
-        }
+### Freelance Outsourcing Professional  
+**Data Entry & Microsoft Office Specialist** *(2020 – Present)*
 
-        .entry-title {
-            font-weight: bold;
-            font-size: 1.05em;
-            color: #2c3e50;
-        }
+- Completed **20+ successful projects** for international clients  
+- Maintained **98% client satisfaction** through accuracy and timely delivery  
+- Specialized in Excel data handling, Word formatting, and PowerPoint presentations  
+- Managed multiple projects alongside academic responsibilities  
 
-        .entry-date {
-            font-weight: bold;
-            font-size: 0.9em;
-            color: #555;
-        }
+---
 
-        .entry-subtitle {
-            display: flex;
-            justify-content: space-between;
-            font-style: italic;
-            font-size: 0.92em;
-            color: #666;
-            margin-bottom: 8px;
-        }
+## 🚀 Projects
 
-        ul {
-            margin-left: 20px;
-            margin-top: 8px;
-        }
+### 🌐 Personal Portfolio Website *(2024)*
+**Technologies:** HTML5, CSS3, Responsive Design
 
-        li {
-            margin-bottom: 6px;
-            font-size: 0.93em;
-            line-height: 1.6;
-        }
+- Designed and developed a fully responsive personal portfolio  
+- Used modern CSS techniques (Flexbox & Grid)  
+- Optimized performance with page load time under **2 seconds**
 
-        .skills-grid {
-            display: grid;
-            gap: 8px;
-            font-size: 0.93em;
-        }
+### 💻 C Programming Practice Projects *(2024)*
+**Technologies:** C, Data Structures, Algorithms
 
-        .skill-item {
-            display: flex;
-        }
+- Built console applications (calculator, student management system, sorting tools)  
+- Implemented arrays, linked lists, stacks, and queues  
+- Solved **50+ algorithmic problems** focusing on efficiency  
 
-        .skill-label {
-            font-weight: bold;
-            min-width: 180px;
-            color: #2c3e50;
-        }
+---
 
-        .skill-content {
-            flex: 1;
-        }
+## 🏆 Achievements & Activities
+- 🚀 Started freelancing at **age 14**, gaining real-world professional experience  
+- 📚 Self-taught programmer (C, HTML, CSS, Web Development)  
+- ⌨️ High-speed and accurate typing for coding & documentation  
+- 🔄 Continuous learner exploring advanced programming concepts  
 
-        .interests {
-            font-size: 0.93em;
-            line-height: 1.7;
-        }
+---
 
-        @media print {
-            body {
-                background-color: white;
-                padding: 0;
-            }
-            .container {
-                box-shadow: none;
-                padding: 20px;
-            }
-        }
+## 🌟 Interests
+- Open Source Contribution  
+- Competitive Programming  
+- Web Development  
+- Artificial Intelligence  
+- Cloud Computing  
+- Technology Innovation  
+- Problem Solving  
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 30px 20px;
-            }
-            
-            h1 {
-                font-size: 2em;
-            }
-            
-            .contact-info {
-                flex-direction: column;
-                gap: 8px;
-            }
-            
-            .entry-header {
-                flex-direction: column;
-                gap: 5px;
-            }
-            
-            .entry-subtitle {
-                flex-direction: column;
-                gap: 3px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Md. Shahariar Hossen Tanim</h1>
-            <p>Savar, Dhaka, Bangladesh</p>
-            <div class="contact-info">
-                <span><i class="fas fa-phone"></i> +880-1727275916</span>
-                <span><i class="fas fa-envelope"></i> <a href="mailto:tanimshorkar77@gmail.com">tanimshorkar77@gmail.com</a></span>
-                <span><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tctanim" target="_blank">linkedin.com/in/tctanim</a></span>
-            </div>
-        </header>
+---
 
-        <section>
-            <h2>Summary</h2>
-            <p class="summary">Software Engineering student with hands-on experience in web development, C/C++ programming, and data management. Proven track record in freelance outsourcing since 2020, delivering data entry and Microsoft Office projects. Passionate about leveraging technology to solve complex problems and create meaningful impact. Strong foundation in algorithms, data structures, and software design principles with 50+ WPM typing proficiency.</p>
-        </section>
+## 📫 Contact Me
+- 📍 Savar, Dhaka, Bangladesh  
+- 📧 Email: **tanimshorkar77@gmail.com**  
+- 💼 LinkedIn: [linkedin.com/in/tctanim](https://www.linkedin.com/in/tctanim)
 
-        <section>
-            <h2>Education</h2>
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Daffodil International University</span>
-                    <span class="entry-date">September 2025 – Present</span>
-                </div>
-                <div class="entry-subtitle">
-                    <span>Bachelor of Applied Science in Computer Software Engineering</span>
-                    <span>Dhaka, Bangladesh</span>
-                </div>
-                <ul>
-                    <li>Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Software Design</li>
-                    <li>Current GPA: Maintaining strong academic performance while building practical programming skills</li>
-                </ul>
-            </div>
+---
 
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Notre Dame College Mymensingh</span>
-                    <span class="entry-date">February 2023 – June 2024</span>
-                </div>
-                <div class="entry-subtitle">
-                    <span>Higher Secondary Certificate (HSC) in Science</span>
-                    <span>Mymensingh, Bangladesh</span>
-                </div>
-                <ul>
-                    <li>Focused on Mathematics, Physics, and Chemistry with strong analytical problem-solving foundation</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <span class="skill-label">Programming Languages:</span>
-                    <span class="skill-content">C, C++ (Learning), HTML5, CSS3</span>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-label">Web Technologies:</span>
-                    <span class="skill-content">Responsive Web Design, Frontend Development, Website Design</span>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-label">Tools & Platforms:</span>
-                    <span class="skill-content">Microsoft Office Suite (Word, Excel, PowerPoint), Git, VS Code</span>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-label">Soft Skills:</span>
-                    <span class="skill-content">Fast Typing (50+ WPM), Data Entry, Problem Solving, Self-Learning, Time Management</span>
-                </div>
-                <div class="skill-item">
-                    <span class="skill-label">Languages:</span>
-                    <span class="skill-content">Bengali (Native), English (Professional Working Proficiency)</span>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Experience</h2>
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Freelance Outsourcing Professional</span>
-                    <span class="entry-date">2020 – Present</span>
-                </div>
-                <div class="entry-subtitle">
-                    <span>Data Entry & Microsoft Office Specialist</span>
-                    <span>Remote</span>
-                </div>
-                <ul>
-                    <li>Delivered 20+ successful data entry and document processing projects for international clients</li>
-                    <li>Maintained 98% client satisfaction rate through accurate data handling and timely project delivery</li>
-                    <li>Specialized in Excel data manipulation, Word document formatting, and PowerPoint presentations</li>
-                    <li>Developed strong attention to detail and quality assurance practices in high-volume data environments</li>
-                    <li>Managed multiple concurrent projects while maintaining academic excellence</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">Personal Portfolio Website | <em>HTML5, CSS3, Responsive Design</em></span>
-                    <span class="entry-date">2024</span>
-                </div>
-                <ul>
-                    <li>Designed and developed a fully responsive portfolio website showcasing projects and skills</li>
-                    <li>Implemented modern CSS techniques including Flexbox and Grid for optimal cross-device compatibility</li>
-                    <li>Optimized page load time to under 2 seconds through efficient code structure and asset management</li>
-                </ul>
-            </div>
-
-            <div class="entry">
-                <div class="entry-header">
-                    <span class="entry-title">C Programming Practice Projects | <em>C, Data Structures, Algorithms</em></span>
-                    <span class="entry-date">2024</span>
-                </div>
-                <ul>
-                    <li>Built console-based applications including calculator, student management system, and sorting algorithms</li>
-                    <li>Implemented fundamental data structures: arrays, linked lists, stacks, and queues in C</li>
-                    <li>Solved 50+ algorithmic problems focusing on time and space complexity optimization</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Achievements & Activities</h2>
-            <ul>
-                <li><strong>Early Tech Entrepreneur:</strong> Started freelancing at age 14 (2020), gaining real-world professional experience</li>
-                <li><strong>Self-Taught Programmer:</strong> Independently learned C, HTML, CSS, and web development through online resources</li>
-                <li><strong>Typing Proficiency:</strong> Achieved 50+ WPM typing speed with high accuracy for efficient coding and documentation</li>
-                <li><strong>Continuous Learner:</strong> Currently advancing C++ skills and exploring data structures and algorithms</li>
-                <li><strong>Problem Solver:</strong> Passionate about using technology to create meaningful solutions and drive innovation</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Interests</h2>
-            <p class="interests">Open Source Contribution, Competitive Programming, Web Development, Artificial Intelligence, Cloud Computing, Technology Innovation, Problem Solving, Continuous Learning</p>
-        </section>
-    </div>
-</body>
-</html>
+⭐ *If you like my work, feel free to star my repositories and connect with me!*
